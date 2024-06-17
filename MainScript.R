@@ -17,7 +17,7 @@ install.packages("janitor")
 library(tidyverse)
 library(janitor)
 #En la siguiente linea cargamos la información del dataset en la variable dat usando la función del tidyverse read_csv, la variable dat es un tibble el cual es un variable tipo dataframe adaptada para trabajar en el tidyverse.
-dat <- read_csv("https://raw.githubusercontent.com/ricardo-rios/fund_prog_est/main/ProyectoII/train.csv")
+dat <- read.csv("https://raw.githubusercontent.com/ricardo-rios/fund_prog_est/main/ProyectoII/train.csv")
 #En la siguiente linea nos dice que el dataset tiene 76518 observaciones (filas) y 38 variables (columnas).
 dim(dat)
 #A continuación mostramos los nombres de las variables.
