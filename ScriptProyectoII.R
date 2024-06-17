@@ -1,13 +1,17 @@
+install.packages("tidyverse")
+install.packages("janitor")
+install.packages("dplyr")
+install.packages("ggplot2")
+
+
 library(tidyverse)
 library(janitor)
 library(dplyr)
-
+library(ggplot2)
 
 #*********************************************************************************************************************************************************************************************************
 #******************** Problema 1: Realizar el código necesario para visualizar la variación de la variable Target ****************************************************************************************
 #*********************************************************************************************************************************************************************************************************
-# Use ggplot2 to visualize the variation of the 'Target' variable
-library(ggplot2)
 dat <- read.csv("https://raw.githubusercontent.com/ricardo-rios/fund_prog_est/main/ProyectoII/train.csv")
 dim(dat)
 names(dat)
